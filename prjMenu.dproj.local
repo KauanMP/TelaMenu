@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/04/12 00:03:24.000.732,=C:\Users\kauan\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/12 02:17:16.000.342,C:\Users\kauan\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\src\view\Unit1.dfm</Transaction>
+    <Transaction>2023/04/12 02:17:16.000.342,C:\Users\kauan\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\src\view\Unit1.pas</Transaction>
+    <Transaction>2023/04/12 02:17:27.000.192,C:\Users\kauan\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\Project1.dproj</Transaction>
+    <Transaction>2023/04/12 02:22:30.000.086,C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\src\view\Unit1.pas=C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\src\view\view.menu.pas</Transaction>
+    <Transaction>2023/04/12 02:22:30.000.086,C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\src\view\Unit1.dfm=C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\src\view\view.menu.dfm</Transaction>
+    <Transaction>2023/04/12 02:23:19.000.649,C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\Project1.dproj=C:\Users\kauan\OneDrive\Área de Trabalho\Repositorios\Delphi\TelaMenu\prjMenu.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

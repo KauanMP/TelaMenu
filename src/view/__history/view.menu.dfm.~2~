@@ -1,0 +1,362 @@
+object frmMenu: TfrmMenu
+  Left = 0
+  Top = 0
+  Cursor = crHandPoint
+  Caption = 'Menu'
+  ClientHeight = 562
+  ClientWidth = 1056
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTop: TPanel
+    Left = 0
+    Top = 0
+    Width = 1056
+    Height = 73
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 7568046
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitTop = 8
+    object Panel1: TPanel
+      Left = 0
+      Top = 0
+      Width = 170
+      Height = 73
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = 4607099
+      ParentBackground = False
+      TabOrder = 0
+      object Panel2: TPanel
+        Left = 0
+        Top = 0
+        Width = 81
+        Height = 73
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        ParentColor = True
+        TabOrder = 0
+        object Image2: TImage
+          Left = 0
+          Top = 0
+          Width = 81
+          Height = 73
+          Align = alClient
+          Center = True
+          Picture.Data = {
+            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000320000
+            003208060000001E3F88B1000000097048597300000B1300000B1301009A9C18
+            000000AA4944415478DAEDD6C109C2501444D1377D28682F66A1B19294206EB5
+            8374125462318A601DCF064270F7279F7B2A98BB1B4525547A0021849823C44D
+            9D21E77677C8501FD2A6F4B05999EF5474D7E1799F0C39B5CD47D2BAF4CE3F7D
+            2FC3B8AA3CE4D8EC23D54BB12DBD724E66BC94D15D6EE3633264C9087143881B
+            42DC10E2861037DC7803DC781BDCF82520C40D216E087143889B3A43B8F16570
+            E36D70E39780103784B821C4CD0FF8F55A336EF981460000000049454E44AE42
+            6082}
+          OnClick = Image2Click
+          OnMouseLeave = Image2MouseLeave
+          ExplicitLeft = 8
+          ExplicitWidth = 105
+          ExplicitHeight = 105
+        end
+        object Image1: TImage
+          Left = 0
+          Top = 0
+          Width = 81
+          Height = 73
+          Align = alClient
+          Center = True
+          Picture.Data = {
+            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000320000
+            003208060000001E3F88B1000000097048597300000B1300000B1301009A9C18
+            000000934944415478DAEDD6C109C3300C4051678F14D271D251BA4F6649B669
+            29648F0A7C36CE4D3FE63FD05D1F74D0540631652F6088217086D00C1BF28AD9
+            6296ECC53ABE31EF98BD15F28B79646F79D119330F1FB2967A5ACFEC2D3B3EA5
+            9ED6D10AB92D43680CA13184C6101A43687CE3017CE3497CE3F10CA13184C610
+            1A4368860DF18D4FE01B4FE21B8F67088D213486D0FC01C22F1E339E9D966400
+            00000049454E44AE426082}
+          OnMouseEnter = Image1MouseEnter
+          ExplicitLeft = -16
+        end
+      end
+      object Panel3: TPanel
+        Left = 81
+        Top = 0
+        Width = 89
+        Height = 73
+        Align = alClient
+        BevelOuter = bvNone
+        ParentBackground = False
+        ParentColor = True
+        TabOrder = 1
+        ExplicitWidth = 96
+        object Label1: TLabel
+          AlignWithMargins = True
+          Left = 3
+          Top = 14
+          Width = 83
+          Height = 23
+          Margins.Top = 14
+          Align = alTop
+          Caption = 'Empresa'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -19
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          ExplicitWidth = 73
+        end
+        object Label2: TLabel
+          AlignWithMargins = True
+          Left = 3
+          Top = 40
+          Width = 83
+          Height = 16
+          Margins.Top = 0
+          Align = alTop
+          Caption = 'NF-e'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          ExplicitWidth = 27
+        end
+      end
+    end
+    object Panel4: TPanel
+      Left = 832
+      Top = 0
+      Width = 224
+      Height = 73
+      Align = alRight
+      BevelOuter = bvNone
+      TabOrder = 1
+      object Panel5: TPanel
+        Left = 128
+        Top = 0
+        Width = 96
+        Height = 73
+        Align = alRight
+        BevelOuter = bvNone
+        TabOrder = 0
+        ExplicitLeft = 248
+        object Image3: TImage
+          Left = 0
+          Top = 0
+          Width = 96
+          Height = 73
+          Align = alClient
+          Center = True
+          Picture.Data = {
+            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000320000
+            003208060000001E3F88B1000000097048597300000B1300000B1301009A9C18
+            000005D94944415478DADD9A798856551887DFA9D4B185CCA6718C8AD12C5AB5
+            7D5FC0F6146927A20582AC2469B182FA278928C892F6A2A2A090A23DDAB3C56C
+            279ACA36DB2D9BD2B445B2B231ABDFC33957BFB9F3DDFB9D73EF9D19F185079C
+            EF6EE777CF39EF766DB235C49AFA7B00ABA39021E200B19FD8568C122D627D7F
+            7CA95824BE1473C5AB62B658B23A0819248E13A78883C5DA91D7AF1033C5BDE2
+            61F1775F0B691693C414B1A9FF8D41BC255E1673C4E76281F8C31F5F4F0C175B
+            8B1DC558B19718E88F778A6BC46D62595F083942DC28B6F47F7788DBC503E2D7
+            C87B6D244E10678A9DFD6F2CBD73C473BD258459982ECEF67FBF272E15CF1678
+            19F5C671B8B84A8CF1BFDD242EB4C0E5162A6498784AEC2AFE1297F807ADA840
+            44ADAD23268B2BFD8B7B478C173F5521A4DDDC86C40B7D268E171FE69C8FC73A
+            4A1C2AB630B72FFE130BC56BE256F1668367322B0F8AADC417FE5EF3CA0819E6
+            1F8E88B7C538F173C6B9B8DAABC56962AD9C7B22EA0A7183589C731EF76315EC
+            E1C5E0D63367264F48B317C172C21B1D622E16D4B356F192D8DEC2ED1F7197B8
+            C05679B6B411835EF4625866FB5BC69EC913C21238CBDC72DAD7B26782B73FDB
+            9F53C45E37E78ABB328E33336F985B66379BF368C1428E3437AD6CEC3D2D7F4F
+            1C2B1E2A2822B18BCCC5902CDBC9DCBE6295E0DD7AB8E67A42068B8FC44871AE
+            B9B59C674F98F32C65EC5B734E25CFCE37E7FED92F04D46E4BAC9E9029FEED10
+            2776B77C17CBF5E44A1B9414821160BFCE398E6B7E578C16E789EBF38430755F
+            994B3BEA4E61CA36B1001F1F683893171A9C932CF94E2F7CE5ACA4859C6C2E81
+            43F96E010F6F133F5624E468F15883739AFCD848674E12F7650979DEBF9989E2
+            8E8087E3761756242464056078523CEA33E666A887101238EA05FC3B6FFAB780
+            9BB237965835750D19C1DC80F3869A5B05B8FD16FFFC6E0320AD78D45C1A3E36
+            6200DF89CD4B8AF8D75C9A1F9ABEBF62AE889B60CE6B761382A7C2635D262E8F
+            18C4D3E652FB32469C1A1D71FE543FCE69E2E2B49027CDE552CCCCE3113725DA
+            4E2A29E46E717AC4F9388647CCCDC684B4102A3AD280EDC4A78137649DE20ADB
+            4A0A61CD6F666E898518391D419BF4699BB410722936D2C6E297C01B0EB5EC1C
+            2CD6629E9BC42F9C536B5A08C185FA99864257E00D0798F31A834B8AE0D91B5A
+            78F381312EF3E737572104A3D43DACA410EE11E33012215DFEDFA5971646BD42
+            1ABF6E41117F9AAB333A22AE217E2CF2636E490B49367B6860AAB5C48B14B163
+            CCC5AF18C3217D6C199B3D8907B1EE17637AE79BDB8431467A435D1FB394CD56
+            056F12C8F16921D79A2B3B63036262B46EA6455E43009E5EE0598C71AA6504C4
+            A2294A6278304AD290AC19A306DFC75C6E176BB3C4819691A2B0C96971524885
+            268D6923A8CD8F38B7B3C03392A491B1B726E34C67ADA4D1F49042D3F8B4312B
+            3131A8C86CD05EA53FCC9E1E97FC98164257FD1E7365EE2E051E42FBE6F7C073
+            290196069E5B3BDEA4B0A2089C912504EF43DD4CA98B078BEDEB8EB0FCBABBD6
+            686E7C1379FFA4D4FDDE5CA9BB72F6EB154489F7F9C0DCC60D9DFE7671BFB9F6
+            5188D1F43BD15C0725C4683E1034E9A0D051B9AEF6603D21CCCA27FE8DF5B8A0
+            8ED1053CC35C0D1D1BDD89EAD4DD777A617946682044D00EDAC1527B31AF4147
+            7D42FEC51B9E933ADEE2074E0D31C6AA318A2BEA12D67DBA339334E806F9B1F5
+            58F2212D535217DAA18BFDA0F9A4404A32D07AC7969BEBA6F069E17D73D902F1
+            89463A9F3226D7BB284F08A9F92C734B8769EFF0C2F23AED551A45162180D960
+            55302304EABA757DA3EE479B7F1B23FA68F0598627240BC86C3D85B471E890F0
+            C960543F89C0451F640D5C75683F8AB8429A1EEA5AAB32961369FE824627C67E
+            0CC5154F8CBCAE88F1550B6783CBADF46368ADD1DABCC57A6FDFD044E7CBF1CC
+            988B8ABE59FC39BD2C3ED00CAF48C00FE6BE413213B18556E925422CE1BF709C
+            6ACE350E88BC9E01E3484854F9EAB5BCE840AA5CEB34C12976F636970FB59B9B
+            AD21FE38750375C43C7399021B99A645ECFF96E87521FD6A6B8C90FF01478433
+            420F034D510000000049454E44AE426082}
+          Transparent = True
+          OnMouseEnter = Image3MouseEnter
+          ExplicitTop = -16
+          ExplicitWidth = 105
+          ExplicitHeight = 105
+        end
+        object image4: TImage
+          Left = 0
+          Top = 0
+          Width = 96
+          Height = 73
+          Align = alClient
+          Center = True
+          Picture.Data = {
+            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000320000
+            003208060000001E3F88B1000000097048597300000B1300000B1301009A9C18
+            0000027A4944415478DAED995B88CD411CC767E5F2B0A1DD681FB75C725764AD
+            4B791292149268CB934BA2365BEB85DD75296AE3855C222FC203F1E081F5B091
+            0825B5CB862894142DA54D6EBBC7E7D79C7D3959FFFFFC67F6FC86CEAF3E6F33
+            DF339FF39F73E63F3365E63FA932ED0194444A22EE350E16C224A8805FF0016E
+            C13DC8C52EB204F641ED5FDADC8595F029569183B02B65EE5B688363D01193C8
+            76389AA1DF4FD80A67631091DFC06B1895B1BFFC7E66C1136D913A38E7997106
+            36698B9C870D9E19CF61B2B6C80398EB99D10BE5F05D53E4054C0C9033127A34
+            455EC2F80039F244BE6A8AC84A3DDF33E30B8CCEDA3994C81558E599F118666B
+            8BEC8526CF0C59E177688BAC806B9E196BE1B2B6884C89479E19737C324289DC
+            80A59E19D761B9B688BC234D0B9031435BE402ACF7CC90D79C3A6D91C570D323
+            2F97CF68D716915A66EC3CCFDAB7CDE7C343EF105F19BB5777ED33C1F783438B
+            1C869D8E7D8E40436C22F2E2D805C353B6979DE17463F722518948ED87DD29DB
+            06791A832522999D26795D7963EC13EC8D55442ACD8EB12B85ACBAC843A84968
+            F30CA6C42EF214A626B49103BAEA984586C13B189BD0AE27DFE65BAC22CDD092
+            B26D2B34C6265269EC82B8D131575E38EBE1A3B648156C31F6EC37693A0D54DD
+            701C4EC0FB628B2CCA0BAC811101BE10A91F70154EC26DE37087E22A320456C3
+            1E981968F003952CAA078CDDC7F785149907A78A20F027A1CD703F84889C92CB
+            1C1E5A6489FE9297CB6D70DA47641D5C74901EACCAE5C772298B885CE0C8B96E
+            A5B2447F7D36F6B0BCDB5544EE030F698FBEA064016D751591DBD705DA232FA8
+            3BC6FEF53B89C8F57185F6C80B4AA6D51857917FA64A22B1554924B6FA0DD897
+            6B334A735ABF0000000049454E44AE426082}
+          Transparent = True
+          Visible = False
+          OnClick = image4Click
+          OnMouseEnter = Image3MouseEnter
+          OnMouseLeave = image4MouseLeave
+          ExplicitTop = -16
+          ExplicitWidth = 105
+          ExplicitHeight = 105
+        end
+      end
+      object Panel6: TPanel
+        Left = 0
+        Top = 0
+        Width = 128
+        Height = 73
+        Align = alClient
+        BevelOuter = bvNone
+        TabOrder = 1
+        ExplicitLeft = 80
+        ExplicitTop = 16
+        ExplicitWidth = 185
+        ExplicitHeight = 41
+        object Label3: TLabel
+          AlignWithMargins = True
+          Left = 3
+          Top = 14
+          Width = 122
+          Height = 19
+          Margins.Top = 14
+          Align = alTop
+          Alignment = taRightJustify
+          Caption = 'Usu'#225'rio'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          ExplicitLeft = 0
+          ExplicitTop = 61
+        end
+        object Label4: TLabel
+          AlignWithMargins = True
+          Left = 3
+          Top = 36
+          Width = 122
+          Height = 16
+          Margins.Top = 0
+          Align = alTop
+          Alignment = taRightJustify
+          Caption = 'Administrador'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          ExplicitLeft = 11
+          ExplicitTop = 40
+        end
+      end
+    end
+  end
+  object SplitView1: TSplitView
+    Left = 0
+    Top = 73
+    Width = 170
+    Height = 489
+    CloseStyle = svcCompact
+    Color = 7568046
+    CompactWidth = 81
+    OpenedWidth = 170
+    Placement = svpLeft
+    TabOrder = 1
+    object CategoryButtons1: TCategoryButtons
+      Left = -29
+      Top = 0
+      Width = 170
+      Height = 489
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BorderStyle = bsNone
+      ButtonFlow = cbfVertical
+      ButtonHeight = 50
+      ButtonOptions = [boFullSize, boShowCaptions, boVerticalCategoryCaptions, boCaptionOnlyBorder]
+      Categories = <
+        item
+          Color = clNone
+          Collapsed = False
+          Items = <
+            item
+              Caption = 'Bot'#227'o 1'
+            end
+            item
+              Caption = 'Bot'#227'o 2'
+            end
+            item
+              Caption = 'Bot'#227'o 3'
+            end>
+        end>
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Segoe UI Semilight'
+      Font.Style = []
+      HotButtonColor = 10594785
+      RegularButtonColor = clNone
+      SelectedButtonColor = 10594785
+      TabOrder = 0
+    end
+  end
+end
