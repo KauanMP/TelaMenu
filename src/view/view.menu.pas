@@ -42,8 +42,15 @@ type
     SpeedButton4: TSpeedButton;
     SpeedButton5: TSpeedButton;
     SpeedButton6: TSpeedButton;
-    SpeedButton7: TSpeedButton;
-    SpeedButton8: TSpeedButton;
+    ImageList2: TImageList;
+    ActionList2: TActionList;
+    Action4: TAction;
+    Action5: TAction;
+    Action6: TAction;
+    Action7: TAction;
+    Action8: TAction;
+    Panel9: TPanel;
+    Image5: TImage;
     procedure Image1MouseEnter(Sender: TObject);
     procedure Image2MouseLeave(Sender: TObject);
     procedure Image2Click(Sender: TObject);
@@ -54,6 +61,11 @@ type
     procedure Action2Execute(Sender: TObject);
     procedure Action3Execute(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure Action4Execute(Sender: TObject);
+    procedure Action5Execute(Sender: TObject);
+    procedure Action6Execute(Sender: TObject);
+    procedure Action7Execute(Sender: TObject);
+    procedure Action8Execute(Sender: TObject);
   private
     { Private declarations }
   public
@@ -70,7 +82,7 @@ implementation
 
 procedure TfrmMenu.Action1Execute(Sender: TObject);
 begin
-//
+  SplitView2.open;
 end;
 
 procedure TfrmMenu.Action2Execute(Sender: TObject);
@@ -81,6 +93,31 @@ end;
 procedure TfrmMenu.Action3Execute(Sender: TObject);
 begin
 //
+end;
+
+procedure TfrmMenu.Action4Execute(Sender: TObject);
+begin
+//
+end;
+
+procedure TfrmMenu.Action5Execute(Sender: TObject);
+begin
+//
+end;
+
+procedure TfrmMenu.Action6Execute(Sender: TObject);
+begin
+//
+end;
+
+procedure TfrmMenu.Action7Execute(Sender: TObject);
+begin
+//
+end;
+
+procedure TfrmMenu.Action8Execute(Sender: TObject);
+begin
+  SplitView2.close;
 end;
 
 procedure TfrmMenu.Image1MouseEnter(Sender: TObject);
